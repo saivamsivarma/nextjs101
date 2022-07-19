@@ -21,8 +21,8 @@
   .card:hover,
   .card:focus,
   .card:active {
-    color: #0070f3;
-    border-color: #0070f3;
+    background-color: #65adff;
+   color:#ffffff !important;
   }
   
   .card h2 {
@@ -47,7 +47,7 @@
   }
 
   .span{
-    color: #0070f3;
+    color: #0070f3 !important;
   }
   
   @media (max-width: 600px) {

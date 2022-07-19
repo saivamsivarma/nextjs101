@@ -2,10 +2,10 @@ import headerStyles from '../styles/Header.module.css';
 
 function Header() {
     const x = 4;
-    return(
+    return (
         <div>
             <h1 className={headerStyles.title}>
-                <span>React Framework for Production</span>
+                <span>NEWS +</span>
             </h1>
             {/* <style jsx>
                { `.title{
