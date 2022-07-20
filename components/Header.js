@@ -5,7 +5,7 @@ function Header() {
     return (
         <div>
             <h1 className={headerStyles.title}>
-                <span>NEWS +</span>
+                <div>NEWS +</div>
             </h1>
             {/* <style jsx>
                { `.title{

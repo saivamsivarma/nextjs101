@@ -14,3 +14,55 @@ a {
 * {
   box-sizing: border-box;
 }
+
+form{
+  padding: .3rem;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #0070f3;
+  border-radius:10px;
+  margin-bottom: 2rem;
+}
+
+input{
+  padding:8px;
+  width: 75%;
+  height: 3rem;
+  caret-color:#0070f3;
+  color: #0070f3;
+  font-size: 1rem;
+  border:0px;
+  outline: none;
+}
+
+ .btn-primary{
+  width: 35%;
+  color: #ffffff;
+  background-color: #0070f3;
+  border: 0px;
+  border-radius:5px;
+  padding:0.5rem 1.2rem;
+  font-size: 1.4rem;
+ }
+
+ span{
+  padding:.2% 1.5%;
+  border: 1px solid #0070f3;
+  border-radius: 5px;
+  color: #0070f3;
+  cursor: pointer;
+ }
+
+ .result_information{
+  color: #0070f3;
+  font-size: 1.2rem;
+ }
+
+ @media (max-width: 1000px) {
+  form{
+    width: 100% !important;
+  }
+  .btn-primary{
+    width: 40%;    
+   }
+}
