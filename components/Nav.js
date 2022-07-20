@@ -10,6 +10,9 @@ function Nav() {
                 <li>
                     <Link href='/about'>About</Link>
                 </li>
+                <li>
+                    <Link href='/hooks'>React Hooks</Link>
+                </li>
             </ul>
         </nav>
     )
